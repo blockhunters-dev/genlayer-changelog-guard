@@ -1,0 +1,9 @@
+{
+  "name": "changelog-guard-consumer",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": "./index.mjs" },
+  "scripts": { "test": "node --test decide.test.mjs read-verdict.test.mjs alert.test.mjs" },
+  "dependencies": { "genlayer-js": "2.0.0-rc.2" }
+}
